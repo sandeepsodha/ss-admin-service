@@ -41,6 +41,7 @@ public class BusRouteService {
             existingRoute.setPrice(updatedRoute.getPrice());
             existingRoute.setDepartureTime(updatedRoute.getDepartureTime());
             existingRoute.setArrivalTime(updatedRoute.getArrivalTime());
+            existingRoute.setBusId(updatedRoute.getBusId());
 
             return busRouteRepository.save(existingRoute);
         }

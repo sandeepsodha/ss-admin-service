@@ -31,5 +31,6 @@ public class BusRoute {
     private LocalDate departureTime;
 
     private LocalDate arrivalTime;
+    private Long busId;
 
 }
